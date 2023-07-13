@@ -2,6 +2,16 @@ package com.example.quizapp
 
 object Constants {
 
+    const val USER_NAME : String = "user_name"
+    const val TOTAL_QUESTIONS: String = "total_questions"
+    const val CORRECT_ANSWERS: String = "total_answers"
+
+    //we need the constant values to move data from one activity to another
+
+
+
+
+
     fun getQuestions(): ArrayList<Question>{
         val questionsList = ArrayList<Question>()
 
